@@ -1,0 +1,215 @@
+digraph {
+	9 [label="y_hat = 99955.03
+n = 95
+loss=67727493660.91" color=grey shape=box style=filled]
+	10 [label="y_hat = 133196.27
+n = 11
+loss=7893145928.18" color=grey shape=box style=filled]
+	7 [label="LotArea <= 10687.00 ?
+node_loss=86514075609.56, subtree_loss=75620639589.09" color="#ffffb3" shape=ellipse style=filled]
+	7 -> 9 [label=Yes]
+	7 -> 10 [label=No]
+	11 [label="y_hat = 109611.33
+n = 60
+loss=37100655675.33" color=grey shape=box style=filled]
+	12 [label="y_hat = 133034.96
+n = 128
+loss=121520114174.80" color=grey shape=box style=filled]
+	8 [label="LotArea <= 6000.00 ?
+node_loss=181034373123.89, subtree_loss=158620769850.14" color="#ffffb3" shape=ellipse style=filled]
+	8 -> 11 [label=Yes]
+	8 -> 12 [label=No]
+	5 [label="OverallCond <= 5.00 ?
+node_loss=300818213448.00, subtree_loss=234241409439.23" color="#fb8072" shape=ellipse style=filled]
+	5 -> 7 [label=Yes]
+	5 -> 8 [label=No]
+	15 [label="y_hat = 166787.84
+n = 86
+loss=64698361705.72" color=grey shape=box style=filled]
+	16 [label="y_hat = 159590.91
+n = 11
+loss=17150909090.91" color=grey shape=box style=filled]
+	13 [label="OverallCond <= 5.00 ?
+node_loss=82354413090.72, subtree_loss=81849270796.63" color="#fb8072" shape=ellipse style=filled]
+	13 -> 15 [label=Yes]
+	13 -> 16 [label=No]
+	17 [label="y_hat = 209976.24
+n = 21
+loss=32257682663.81" color=grey shape=box style=filled]
+	18 [label="y_hat = 201000.00
+n = 3
+loss=942000000.00" color=grey shape=box style=filled]
+	14 [label="OverallCond <= 5.00 ?
+node_loss=33411186395.96, subtree_loss=33199682663.81" color="#fb8072" shape=ellipse style=filled]
+	14 -> 17 [label=Yes]
+	14 -> 18 [label=No]
+	6 [label="LotArea <= 9587.00 ?
+node_loss=151145626076.07, subtree_loss=115048953460.44" color="#ffffb3" shape=ellipse style=filled]
+	6 -> 13 [label=Yes]
+	6 -> 14 [label=No]
+	3 [label="YearBuilt <= 1976.00 ?
+node_loss=729549351060.33, subtree_loss=349290362899.66" color="#80b1d3" shape=ellipse style=filled]
+	3 -> 5 [label=Yes]
+	3 -> 6 [label=No]
+	23 [label="y_hat = 128568.50
+n = 105
+loss=83319942294.25" color=grey shape=box style=filled]
+	24 [label="y_hat = 146970.39
+n = 150
+loss=121989625881.79" color=grey shape=box style=filled]
+	21 [label="OverallCond <= 5.00 ?
+node_loss=226224919831.63, subtree_loss=205309568176.04" color="#fb8072" shape=ellipse style=filled]
+	21 -> 23 [label=Yes]
+	21 -> 24 [label=No]
+	25 [label="y_hat = 152675.86
+n = 51
+loss=125316186580.04" color=grey shape=box style=filled]
+	26 [label="y_hat = 193763.43
+n = 58
+loss=131995260478.22" color=grey shape=box style=filled]
+	22 [label="OverallCond <= 5.00 ?
+node_loss=303124849778.92, subtree_loss=257311447058.26" color="#fb8072" shape=ellipse style=filled]
+	22 -> 25 [label=Yes]
+	22 -> 26 [label=No]
+	19 [label="LotArea <= 11030.10 ?
+node_loss=623671734220.53, subtree_loss=462621015234.30" color="#ffffb3" shape=ellipse style=filled]
+	19 -> 21 [label=Yes]
+	19 -> 22 [label=No]
+	29 [label="y_hat = 188920.20
+n = 82
+loss=68589278294.88" color=grey shape=box style=filled]
+	30 [label="y_hat = 152064.29
+n = 7
+loss=4790323571.43" color=grey shape=box style=filled]
+	27 [label="OverallCond <= 5.00 ?
+node_loss=82140248219.62, subtree_loss=73379601866.31" color="#fb8072" shape=ellipse style=filled]
+	27 -> 29 [label=Yes]
+	27 -> 30 [label=No]
+	31 [label="y_hat = 212290.85
+n = 118
+loss=289095094379.25" color=grey shape=box style=filled]
+	32 [label="y_hat = 210385.93
+n = 14
+loss=27496566036.93" color=grey shape=box style=filled]
+	28 [label="OverallCond <= 5.00 ?
+node_loss=316637074346.27, subtree_loss=316591660416.18" color="#fb8072" shape=ellipse style=filled]
+	28 -> 31 [label=Yes]
+	28 -> 32 [label=No]
+	20 [label="LotArea <= 9135.00 ?
+node_loss=434898918132.53, subtree_loss=389971262282.49" color="#ffffb3" shape=ellipse style=filled]
+	20 -> 27 [label=Yes]
+	20 -> 28 [label=No]
+	4 [label="YearBuilt <= 1977.00 ?
+node_loss=1425746014722.86, subtree_loss=852592277516.79" color="#80b1d3" shape=ellipse style=filled]
+	4 -> 19 [label=Yes]
+	4 -> 20 [label=No]
+	1 [label="LotFrontage <= 60.00 ?
+node_loss=2987549186676.22, subtree_loss=1201882640416.46" color="#8dd3c7" shape=ellipse style=filled]
+	1 -> 3 [label=Yes]
+	1 -> 4 [label=No]
+	39 [label="y_hat = 233237.43
+n = 23
+loss=58249110089.65" color=grey shape=box style=filled]
+	40 [label="y_hat = nan
+n = 0
+loss=0.00" color=grey shape=box style=filled]
+	37 [label="OverallCond <= 5.00 ?
+node_loss=58249110089.65, subtree_loss=58249110089.65" color="#fb8072" shape=ellipse style=filled]
+	37 -> 39 [label=Yes]
+	37 -> 40 [label=No]
+	38 [label="y_hat = 392000.00
+n = 1
+loss=0.00" color=grey shape=box style=filled]
+	35 [label="YearBuilt <= 2006.00 ?
+node_loss=82404430865.96, subtree_loss=58249110089.65" color="#80b1d3" shape=ellipse style=filled]
+	35 -> 37 [label=Yes]
+	35 -> 38 [label=No]
+	43 [label="y_hat = 275212.50
+n = 72
+loss=172817666058.00" color=grey shape=box style=filled]
+	44 [label="y_hat = 295500.00
+n = 4
+loss=8073000000.00" color=grey shape=box style=filled]
+	41 [label="OverallCond <= 5.00 ?
+node_loss=182450347702.74, subtree_loss=180890666058.00" color="#fb8072" shape=ellipse style=filled]
+	41 -> 43 [label=Yes]
+	41 -> 44 [label=No]
+	45 [label="y_hat = 394432.00
+n = 1
+loss=0.00" color=grey shape=box style=filled]
+	46 [label="y_hat = 303174.25
+n = 16
+loss=56582695185.00" color=grey shape=box style=filled]
+	42 [label="OverallCond <= 2.00 ?
+node_loss=64420791123.88, subtree_loss=56582695185.00" color="#fb8072" shape=ellipse style=filled]
+	42 -> 45 [label=Yes]
+	42 -> 46 [label=No]
+	36 [label="YearBuilt <= 2007.00 ?
+node_loss=261331014405.57, subtree_loss=237473361243.00" color="#80b1d3" shape=ellipse style=filled]
+	36 -> 41 [label=Yes]
+	36 -> 42 [label=No]
+	33 [label="LotFrontage <= 60.20 ?
+node_loss=472177053639.99, subtree_loss=295722471332.65" color="#8dd3c7" shape=ellipse style=filled]
+	33 -> 35 [label=Yes]
+	33 -> 36 [label=No]
+	51 [label="y_hat = 347244.53
+n = 55
+loss=364345708369.71" color=grey shape=box style=filled]
+	52 [label="y_hat = 405712.50
+n = 8
+loss=166095308750.00" color=grey shape=box style=filled]
+	49 [label="OverallCond <= 5.00 ?
+node_loss=554316281997.94, subtree_loss=530441017119.71" color="#fb8072" shape=ellipse style=filled]
+	49 -> 51 [label=Yes]
+	49 -> 52 [label=No]
+	53 [label="y_hat = 444003.42
+n = 12
+loss=141969686470.92" color=grey shape=box style=filled]
+	54 [label="y_hat = nan
+n = 0
+loss=0.00" color=grey shape=box style=filled]
+	50 [label="OverallCond <= 5.00 ?
+node_loss=141969686470.92, subtree_loss=141969686470.92" color="#fb8072" shape=ellipse style=filled]
+	50 -> 53 [label=Yes]
+	50 -> 54 [label=No]
+	47 [label="YearBuilt <= 2007.00 ?
+node_loss=776730742346.67, subtree_loss=672410703590.63" color="#80b1d3" shape=ellipse style=filled]
+	47 -> 49 [label=Yes]
+	47 -> 50 [label=No]
+	57 [label="y_hat = 247500.00
+n = 2
+loss=312500000.00" color=grey shape=box style=filled]
+	58 [label="y_hat = 166000.00
+n = 2
+loss=8000000.00" color=grey shape=box style=filled]
+	55 [label="OverallCond <= 5.40 ?
+node_loss=6962750000.00, subtree_loss=320500000.00" color="#fb8072" shape=ellipse style=filled]
+	55 -> 57 [label=Yes]
+	55 -> 58 [label=No]
+	59 [label="y_hat = 361550.00
+n = 5
+loss=222799550000.00" color=grey shape=box style=filled]
+	60 [label="y_hat = nan
+n = 0
+loss=0.00" color=grey shape=box style=filled]
+	56 [label="OverallCond <= 5.00 ?
+node_loss=222799550000.00, subtree_loss=222799550000.00" color="#fb8072" shape=ellipse style=filled]
+	56 -> 59 [label=Yes]
+	56 -> 60 [label=No]
+	48 [label="YearBuilt <= 1991.80 ?
+node_loss=283013500000.00, subtree_loss=223120050000.00" color="#80b1d3" shape=ellipse style=filled]
+	48 -> 55 [label=Yes]
+	48 -> 56 [label=No]
+	34 [label="LotFrontage <= 120.70 ?
+node_loss=1151691004871.48, subtree_loss=895530753590.63" color="#8dd3c7" shape=ellipse style=filled]
+	34 -> 47 [label=Yes]
+	34 -> 48 [label=No]
+	2 [label="LotArea <= 12026.20 ?
+node_loss=2036505896644.69, subtree_loss=1191253224923.28" color="#ffffb3" shape=ellipse style=filled]
+	2 -> 33 [label=Yes]
+	2 -> 34 [label=No]
+	0 [label="OverallQual <= 7.00 ?
+node_loss=9207911334609.98, subtree_loss=2393135865339.74" color="#bebada" shape=ellipse style=filled]
+	0 -> 1 [label=Yes]
+	0 -> 2 [label=No]
+}
