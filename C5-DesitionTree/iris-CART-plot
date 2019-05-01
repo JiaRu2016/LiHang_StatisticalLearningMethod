@@ -1,0 +1,59 @@
+digraph {
+	3 [label="y_hat = 0.0
+n = 1" color=grey shape=box style=filled]
+	5 [label="y_hat = 0.0
+n = 1" color=grey shape=box style=filled]
+	7 [label="y_hat = 0.0
+n = 1" color=grey shape=box style=filled]
+	8 [label="y_hat = 0.0
+n = 45" color=grey shape=box style=filled]
+	6 [label="petal length (cm) <= 1.0 ?" color="#bebada" shape=ellipse style=filled]
+	6 -> 7 [label=Yes]
+	6 -> 8 [label=No]
+	4 [label="sepal width (cm) <= 2.3 ?" color="#ffffb3" shape=ellipse style=filled]
+	4 -> 5 [label=Yes]
+	4 -> 6 [label=No]
+	1 [label="sepal length (cm) <= 4.3 ?" color="#8dd3c7" shape=ellipse style=filled]
+	1 -> 3 [label=Yes]
+	1 -> 4 [label=No]
+	13 [label="y_hat = 1.5
+n = 2" color=grey shape=box style=filled]
+	14 [label="y_hat = 1.0444444444444445
+n = 45" color=grey shape=box style=filled]
+	11 [label="sepal length (cm) <= 4.9 ?" color="#8dd3c7" shape=ellipse style=filled]
+	11 -> 13 [label=Yes]
+	11 -> 14 [label=No]
+	15 [label="y_hat = 0.0
+n = 2" color=grey shape=box style=filled]
+	16 [label="y_hat = 1.0
+n = 2" color=grey shape=box style=filled]
+	12 [label="sepal length (cm) <= 5.28 ?" color="#8dd3c7" shape=ellipse style=filled]
+	12 -> 15 [label=Yes]
+	12 -> 16 [label=No]
+	9 [label="sepal width (cm) <= 3.2 ?" color="#ffffb3" shape=ellipse style=filled]
+	9 -> 11 [label=Yes]
+	9 -> 12 [label=No]
+	19 [label="y_hat = 2.0
+n = 3" color=grey shape=box style=filled]
+	20 [label="y_hat = 1.7777777777777777
+n = 9" color=grey shape=box style=filled]
+	17 [label="sepal length (cm) <= 5.800000000000001 ?" color="#8dd3c7" shape=ellipse style=filled]
+	17 -> 19 [label=Yes]
+	17 -> 20 [label=No]
+	21 [label="y_hat = 2.0
+n = 17" color=grey shape=box style=filled]
+	22 [label="y_hat = 1.9090909090909092
+n = 22" color=grey shape=box style=filled]
+	18 [label="sepal length (cm) <= 6.5 ?" color="#8dd3c7" shape=ellipse style=filled]
+	18 -> 21 [label=Yes]
+	18 -> 22 [label=No]
+	10 [label="sepal width (cm) <= 2.7 ?" color="#ffffb3" shape=ellipse style=filled]
+	10 -> 17 [label=Yes]
+	10 -> 18 [label=No]
+	2 [label="petal length (cm) <= 4.85 ?" color="#bebada" shape=ellipse style=filled]
+	2 -> 9 [label=Yes]
+	2 -> 10 [label=No]
+	0 [label="petal width (cm) <= 0.4 ?" color="#fb8072" shape=ellipse style=filled]
+	0 -> 1 [label=Yes]
+	0 -> 2 [label=No]
+}
